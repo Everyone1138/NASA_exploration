@@ -7,7 +7,7 @@ function URL2result() {
   // Fetch NASA content
   fetch(apiURL)
     .then(function (response) {
-      console.log(response)
+      // console.log(response)
 
       // In case of bad response, send user to bad search page
       if (response.status >= 400) {
@@ -65,7 +65,7 @@ function getImage(nasa_id) {
       return response.json();
     })
     .then(function (data) {
-      console.log(data);
+      // console.log(data);
 
       // Indexing of the image link gives different sizes -> 0 is always available, but is the largest size (original)
       var imgLink = data.collection.items[0].href;
