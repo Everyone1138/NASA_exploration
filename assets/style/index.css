@@ -52,3 +52,9 @@ ul.ulStyle {
 #biggerFont {
   font-size: 30px;
 }
+
+#yellOw {
+  font-size: 25px;
+  font-weight: bolder;
+  color: yellow;
+}
